@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomePage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity" >
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_text"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/welcomeInstructions1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_current_weight"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/curWeightInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_weight"
+        android:background="@drawable/custom_edittext"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="5dp"
+        android:padding="8sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"/>
+
+    <TextView
+        android:id="@+id/welcomeInstructions2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_target_weight"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/targetWeightInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_weight"
+        android:background="@drawable/custom_edittext"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="5dp"
+        android:padding="8sp"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"/>
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="50dp"
+        android:layout_marginTop="140dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/cont"
+        android:textSize="18sp" />
+
+</LinearLayout>

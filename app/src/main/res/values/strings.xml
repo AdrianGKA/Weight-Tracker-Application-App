@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Weight Tracker</string>
+    <string name="login_text">Login To Coninue</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_string">Don\'t have an account?</string>
+    <string name="signupbutton">Sign Up</string>
+    <string name="retype_password">Reenter Password</string>
+    <string name="signup_login_text">Have an account?</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="add_weight"> Add Weight</string>
+    <string name="enter_weight"> Enter Weight</string>
+    <string name="scale_weight">Scale Weight</string>
+    <string name="save">Save</string>
+    <string name="welcome_text">Welcome</string>
+    <string name="enter_current_weight">Please enter your current weight</string>
+    <string name="enter_target_weight">Please enter your target weight</string>
+    <string name="cont">Continue</string>
+</resources>
